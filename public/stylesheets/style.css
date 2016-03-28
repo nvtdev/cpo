@@ -1,0 +1,113 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.row {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#gallery {
+	/*margin-top: 25px;*/
+}
+
+#gallery a {
+	margin: 10px;
+}
+
+#bs-example-navbar-collapse-1 {
+	font-weight: bold;
+}
+
+#partners img {
+	margin-top: 50px;
+}
+
+#partners_contact img {
+	margin-top: 50px;	
+}
+
+#partners_contact {
+	border-right: 1px solid #C4AB26;
+	padding-bottom: 180px;
+}
+
+#content_contact {
+	border-left: none;
+	margin-left: 30px;
+	padding-left: 30px !important;
+}
+
+.row {
+	padding-bottom: 40px;
+	/*padding-top: 20px;*/
+	/*border-bottom: 1px solid #C4AB26;*/
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+	font-weight: bold !important;
+	color: #C4AB26 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	font-weight: bold !important;
+	color: white !important;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	color: #C4AB26 !important;
+}
+
+.col-md-8 {
+	border-left: 1px solid #C4AB26;
+	margin-left: 30px;
+	padding-left: 30px !important;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.col-md-3 {
+	padding-top: 25px;
+}
+
+@media only screen and (max-width:1000px) {
+	.col-md-8 { 
+		border-left: none;
+		margin-left: 0px;
+		padding-left: 0px !important;
+	}
+
+	.col-md-3 {
+		margin-top: 25px;
+	}
+
+	#partners_contact {
+		border-right: none;
+		padding-bottom: 0;
+	}
+
+	#content_contact {
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+}
+
+body {
+	/*margin-top: 25px;*/
+}
+
+.footer {
+	margin: 0;
+	bottom: 0;
+	background-color: #f5f5f5;
+	height: 80px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	color: #C4AB26;
+}
