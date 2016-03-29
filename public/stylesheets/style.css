@@ -111,3 +111,8 @@ body {
 	font-weight: bold;
 	color: #C4AB26;
 }
+
+#map {
+    width: 500px;
+   height: 400px;
+}
