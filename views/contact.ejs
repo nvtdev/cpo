@@ -78,7 +78,7 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">  
+    <div class="container">
 
     <div class="col-md-3" id="partners_contact">
         <h2>Партньори</h2>
@@ -86,7 +86,7 @@
         <img src="images/part2_t.jpg" alt="Агенция по Заетост" class="img-rounded">
         <img src="images/part3_t.jpg" alt="Министерство на Образуванието и Науката" class="img-rounded">
     </div>
-    <div class="col-md-8" id="content_contact"> 
+    <div class="col-md-8" id="content_contact">
 
         <center>
 
@@ -100,6 +100,8 @@
                        0889819200 – Теодора Миновска <br>
             Email: <a href="mailto:centarzakvalifikacia@abv.bg" target="_top">centarzakvalifikacia@abv.bg</a> <br>
             <div id="map"></div>
+            <br>
+            <a class="example-image-link" href="images/sgrada.jpg" data-lightbox="example-set" data-title="Барман"><img class="example-image" src="images/sgrada_t.jpg" alt=""/></a>
 
         </center>
 
@@ -122,6 +124,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="javascripts/bootstrap.min.js"></script>
 
+    <!-- Lightbox -->
+    <script src="javascripts/lightbox.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
@@ -131,11 +135,11 @@
 
     // $(".pop").on("click", function() {
     //    $('#imagepreview').attr('src', $('.imageresource').attr('src'));
-    //    $('#imagemodal').modal('show');   
+    //    $('#imagemodal').modal('show');
     // });
     </script>
 
-    <script> 
+    <script>
     function initMap() {
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
